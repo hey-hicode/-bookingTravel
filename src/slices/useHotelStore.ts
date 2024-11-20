@@ -33,7 +33,7 @@ interface HotelStore {
 
 export const useHotelStore = create(
   persist<HotelStore>(
-    (set, get) => ({
+    (set) => ({
       hotels: [],
       selectedHotels: [],
       isLoading: false,

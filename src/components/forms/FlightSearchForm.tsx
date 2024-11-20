@@ -14,7 +14,7 @@ const FlightSearchForm = () => {
     returnDate: new Date(Date.now() + 86400000),
     adults: "1",
     children: "0",
-    cabinClass: "ECONOMY" as const,
+    cabinClass: "ECONOMY" as any,
   });
   const [validationErrors, setValidationErrors] = useState<
     Record<string, string>

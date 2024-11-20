@@ -5,16 +5,13 @@ import {
   PiCalendarBlankBold,
   PiDotsThreeBold,
   PiGearSix,
-  PiRoadHorizonBold,
   PiUserPlus,
-  PiWarehouseBold,
 } from "react-icons/pi";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import FlightInfo from "./components/FlightInfo";
 import HotelInfo from "./components/HotelInfo";
 import ActivityInfo from "./components/ActivitiyInfo";
-import Modal from "./components/modal";
 import { useFlightStore } from "./slices/useFlightStore";
 import { useHotelStore } from "./slices/useHotelStore";
 import { useActivityStore } from "./slices/useActivityStore";

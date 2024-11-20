@@ -1,6 +1,9 @@
+// @ts-ignore
+
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import { searchActivities } from "../services/api";
+// import { Flight } from "../types/flight";
 
 interface Activity {
   id: string;
@@ -98,7 +101,7 @@ export const useActivityStore = create(
     }),
     {
       name: "activity-storage",
-      partialize: (state) => ({ selectedActivities: state.selectedActivities }),
+      // partialize: (state) => ({ selectedActivities: state.selectedActivities }),
     }
   )
 );

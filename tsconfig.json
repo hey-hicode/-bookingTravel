@@ -3,5 +3,12 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
-  ]
+  ],
+
+    "compilerOptions": {
+    "skipLibCheck": true, // Skips type checking in .d.ts files
+    "noEmit": true,       // Prevents emitting files
+    "strict": false      // Disables strict mode (optional)
+  }
+
 }

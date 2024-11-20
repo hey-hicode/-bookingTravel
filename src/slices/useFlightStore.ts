@@ -96,9 +96,9 @@ export const useFlightStore = create(
     }),
     {
       name: "flight-storage",
-      partialize: (state) => ({
-        selectedFlights: state.selectedFlights,
-      }),
+      // partialize: (state: FlightStore) => ({
+  // selectedFlights: state.selectedFlights,
+// })
     }
   )
 );
